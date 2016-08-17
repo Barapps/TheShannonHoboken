@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "the-shannon-hoboken-app",
+    "project_number": "958545720965",
+    "name": "The Shannon Hoboken App"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958545720965:android:921411dcd1ccb3c1",
+        "client_id": "android:TheShannonHoboken.app",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "TheShannonHoboken.app",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

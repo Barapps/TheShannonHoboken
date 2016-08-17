@@ -8,40 +8,145 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.edwardlafontant.theshannonhoboken.LoginRegister"
-    android:background="#53d100">
+    android:background="@drawable/greenfade"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/theshannonvideo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="350dp"
+        />
+
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/loginusername"
         android:singleLine="true"
         android:hint="Username"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:foregroundTint="#ffffff"
+        android:foreground="#ffffff"
+        android:phoneNumber="true"
+        android:background="#bb000000" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:hint="Password" />
+        android:id="@+id/loginpass"
+        android:hint="Password"
+        android:layout_below="@+id/loginusername"
+        android:layout_alignLeft="@+id/loginusername"
+        android:layout_alignStart="@+id/loginusername"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textIsSelectable="false"
+        android:background="#bb000000" />
+
+
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/regBtn"
+        android:background= "#64f72e"
+        android:shadowColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/loginpass"
+        android:layout_alignRight="@+id/loginpass"
+        android:layout_alignEnd="@+id/loginpass" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/userlogin"
+        android:background="#64f72e"
+        android:shadowColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/regBtn"
+        android:layout_alignLeft="@+id/loginpass"
+        android:layout_alignStart="@+id/loginpass"
+        android:onClick="userLogin"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@mipmap/brand"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_above="@+id/editText"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText" />
+        android:src="@mipmap/brand"
+        android:layout_alignRight="@+id/loginusername"
+        android:layout_alignEnd="@+id/loginusername"
+        android:layout_alignLeft="@+id/loginusername"
+        android:layout_alignStart="@+id/loginusername"
+        android:layout_above="@+id/loginusername" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Forgot Password?"
+        android:id="@+id/forgotPassword"
+        android:layout_below="@+id/regBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:textColor="#ffffff"
+        android:background="#be000000"
+        android:onClick="recoverPass"/>
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="106 1st Street"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoboken, NJ 07030"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:foregroundGravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:id="@+id/textView" />
+
+
+
 
 </RelativeLayout>

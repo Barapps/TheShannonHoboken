@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:clickable="true"
+    android:onClick="deleteReq"
+    >
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/tx_songname"
+        android:layout_alignParentLeft="true"
+        android:text="Song Name"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/tx_artistname"
+        android:layout_toRightOf="@+id/tx_songname"
+        android:text="Artist"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/tx_date"
+        android:layout_toRightOf="@+id/tx_artistname"
+        android:text="Date"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+</RelativeLayout>

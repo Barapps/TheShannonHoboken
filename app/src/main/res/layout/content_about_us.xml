@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.edwardlafontant.theshannonhoboken.AboutUs"
+    tools:showIn="@layout/activity_about_us"
+    android:background="@drawable/shannon4">
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </TableRow>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_column="22"
+            android:src="@drawable/brand" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="About Us
+            "
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#b5000000"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Located at 106 First St. in downtown Hoboken (just 2 blocks from the PATH and NJ Transit, The Shannon is Hoboken’s premier sports bar with the best party in town on the weekends. 2 rooms featuring 2 different atmospheres!  The front bar has a nice Irish Pub feel and is great for socializing.  The back room is great for darts, foosball, beer pong, and features the largest DANCE FLOOR and more!
+
+Watch your favorite team on one of our 28 HD TVs and our 106″ HD projection screen or join the competition. With Pool, Darts, Foosball, Giant Jenga, Beer Pong and NTN Buzztime for trivia fans, there is something for everyone. We also carry most major sports packages including: &#xA;
+&#xA;
+MLB Extra innings &#xA;
+ESPN GamePlan, &#xA;
+ESPN Full Court, &#xA;
+NCAA March Madness, &#xA;
+NHL Center Ice, &#xA;
+NBA League Pass, &#xA;
+NFL SundayTicket, &#xA;
+MLS Direct Kick &#xA;
+Hoboken’s Happiest Hour is as easy as $1, $2, $3 and our Daily Drink specials can’t be beat!  Power Hour every Thursday, Friday and Saturday nights from 8 – 10pm featuring $5 U CALL-IT!  That’s $5 for shots and mixed drinks for 2 hours!&#xA;
+&#xA;
+We have the largest backroom in Hoboken and a DJ every Wednesday, Thursday, Friday and Saturday night allowing you to shake and dance all your stress away!
+So stop by to see what the buzz is about!"
+            android:textColor="#ffffff"
+            android:background="#bc000000"
+            android:textSize="16dp"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dress code"
+            android:id="@+id/btnDresscode"
+            android:background="#c8ffffff" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:id="@+id/btnDirect"
+            android:onClick="process"
+            android:background="#c8ffffff" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+        <ImageButton android:layout_width="wrap_content"
+            android:src="@drawable/homebtn"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeBtn"/>
+
+
+
+
+    </TableLayout>
+</ScrollView>

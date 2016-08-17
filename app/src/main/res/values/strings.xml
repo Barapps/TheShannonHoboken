@@ -1,4 +1,21 @@
 <resources>
-    <string name="app_name">TheShannonHoboken</string>
+    <string name="app_name">The Shannon Hoboken</string>
     <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_drink_menu">DrinkMenu</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_general_info">GeneralInfo</string>
+    <string name="title_activity_request_song">RequestSong</string>
+    <string name="title_activity_pic_share">PicShare</string>
+    <string name="title_activity_scoreboard">Scoreboard</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_create_team">CreateTeam</string>
+    <string name="title_activity_my_playlist">MyPlaylist</string>
+    <string name="title_activity_view_song_requests">ViewSongRequests</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_my_profile">myProfile</string>
+    <string name="title_activity_dress_code">dressCode</string>
+    <string name="title_activity_dj_main">djMain</string>
+    <string name="title_activity_add_win_request">addWinRequest</string>
+    <string name="title_activity_rateusactivity">rateusactivity</string>
 </resources>
